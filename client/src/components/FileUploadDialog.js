@@ -48,7 +48,7 @@ const FileUploadDialog = props => {
   );
 };
 
-FileUploadDialog.proptypes = {
+FileUploadDialog.propTypes = {
   fileMessage: Proptypes.string.isRequired,
   handleInput: Proptypes.func.isRequired,
   uploadAttachment: Proptypes.func.isRequired,

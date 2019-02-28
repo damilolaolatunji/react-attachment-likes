@@ -1,5 +1,5 @@
-import React from 'react';
-import Proptypes from 'prop-types';
+import React from "react";
+import Proptypes from "prop-types";
 
 const Dialog = props => {
   const { userId, handleInput, connectToChatkit } = props;
@@ -30,10 +30,10 @@ const Dialog = props => {
   );
 };
 
-Dialog.proptypes = {
+Dialog.propTypes = {
   userId: Proptypes.string.isRequired,
   handleInput: Proptypes.func.isRequired,
-  connectToChatkit: Proptypes.func.isRequired,
+  connectToChatkit: Proptypes.func.isRequired
 };
 
 export default Dialog;
