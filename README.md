@@ -1,6 +1,6 @@
 # Realtime likes on file attachments
 
-Like files that are shared in a chatroom. Tutorial:
+Like files that are shared in a chatroom. Tutorial: https://pusher.com/tutorials/file-upload-likes-react-chatroom
 
 ## Getting Started
 
